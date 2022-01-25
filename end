@@ -1,0 +1,79 @@
+[33mcommit 8d863f6977df54e3ba05671659eea42d626d8b37[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/task-2[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mtask-2[m[33m)[m
+Author: Shavko dima <shavkodima10@gmail.com>
+Date:   Tue Jan 25 20:58:38 2022 +0300
+
+    delete file cart, index, modal, myScript
+
+[33mcommit ab65ee91210220c9875aed02aa3f084888487146[m[33m ([m[1;32mtesting[m[33m)[m
+Author: shavkodima <43857350+shavkodima@users.noreply.github.com>
+Date:   Tue Jan 25 20:53:33 2022 +0300
+
+    create file shop
+
+[33mcommit 4483532c182acf734322ad54675335554783d219[m[33m ([m[1;31morigin/testing[m[33m)[m
+Author: Shavko dima <shavkodima10@gmail.com>
+Date:   Tue Jan 25 20:51:00 2022 +0300
+
+    update files
+
+[33mcommit f5c736a64b6a397e88f1a01b519a3c2f82788caa[m
+Author: Shavko dima <shavkodima10@gmail.com>
+Date:   Tue Jan 25 20:39:47 2022 +0300
+
+    update file index.js
+
+[33mcommit 6731eb606249eaff1ddc2c2287e29df40c8202cb[m
+Author: Shavko dima <shavkodima10@gmail.com>
+Date:   Tue Jan 25 20:32:58 2022 +0300
+
+    bug fix modal.js
+
+[33mcommit 095900db0a93519d6621286ed7f44395a5c707af[m
+Author: Shavko dima <shavkodima10@gmail.com>
+Date:   Tue Jan 25 20:25:22 2022 +0300
+
+    create file index_edit.js
+
+[33mcommit d89d33e05f4b149cdcce17ffea5c52a8626cec7e[m
+Author: Shavko dima <shavkodima10@gmail.com>
+Date:   Tue Jan 25 20:22:40 2022 +0300
+
+    update project
+
+[33mcommit f466e2922130ebb4ce42c3289d0acd13503b73b9[m
+Author: Shavko dima <shavkodima10@gmail.com>
+Date:   Tue Jan 25 20:14:22 2022 +0300
+
+    create modal.js
+
+[33mcommit 2acb0afbef9e0382aec37a338c430dd95a06e4a3[m
+Author: Shavko dima <shavkodima10@gmail.com>
+Date:   Tue Jan 25 20:06:51 2022 +0300
+
+    create index.js
+
+[33mcommit 9412e34d77ad43fd2f5f83d1a72fb74ae228d572[m
+Author: shavkodima <43857350+shavkodima@users.noreply.github.com>
+Date:   Tue Jan 25 19:25:31 2022 +0300
+
+    Create myScript.js
+    
+    add MyScript
+
+[33mcommit 71b083d0561ef90ea765e0d2ed474f7eab3e1190[m
+Author: shavkodima <43857350+shavkodima@users.noreply.github.com>
+Date:   Tue Jan 25 18:58:06 2022 +0300
+
+    create readme
+
+[33mcommit 939766f47a6fbccf999950a3b9e68237199fa3ea[m
+Author: Shavko dima <shavkodima10@gmail.com>
+Date:   Tue Jan 25 18:53:39 2022 +0300
+
+    add filex txt
+
+[33mcommit 12c0a30ba6d508bafb1d9007e92e23f6abd9a64c[m
+Author: Shavko dima <shavkodima10@gmail.com>
+Date:   Tue Jan 25 18:38:38 2022 +0300
+
+    gulp
