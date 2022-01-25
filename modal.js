@@ -1,1 +1,0 @@
-const player = document.createAttribute("asdasd")
