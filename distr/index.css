@@ -1,0 +1,179 @@
+.container-card .container-card__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+}
+.container-card .container-card__item .card {
+  max-width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  margin: 10px;
+  -webkit-box-shadow: 0px 1px 3px #111;
+          box-shadow: 0px 1px 3px #111;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.container-card .container-card__item .card .card-title {
+  padding: 10px 0;
+}
+.container-card .container-card__item .card .card-img {
+  overflow: hidden;
+}
+.container-card .container-card__item .card .card-description {
+  padding: 10px 0;
+}
+.container-card .container-card__item .card .card-img {
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+.container-card .container-card__item .card .card-img img {
+  width: inherit;
+  height: 100%;
+  border-radius: 3px;
+}
+.container-card .container-card__item .card:nth-child(1) {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+.container-card .card:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+* {
+  margin: 0;
+  padding: 0 0;
+}
+
+button {
+  padding: 20px;
+  font-size: 20px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: red;
+  height: 80px;
+  min-height: 80px;
+}
+header .header-left {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  background-color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: inherit;
+}
+header .header-right {
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: inherit;
+}
+.content {
+  height: auto;
+}
+.content .content-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: inherit;
+}
+.content .content-item .content-item__left {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: inherit;
+  background-color: red;
+}
+.content .content-item .content-item__right {
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: inherit;
+  background-color: yellowgreen;
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  .card {
+    font-size: 40px;
+  }
+}
+

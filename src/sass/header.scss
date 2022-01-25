@@ -1,0 +1,35 @@
+@import  "variables.scss";
+
+@mixin header-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+@mixin list-clear {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-between;
+        background:red;
+        height: 80px;
+        min-height: 80px;
+}
+
+header{
+    @include list-clear(); 
+
+    & .header-left{
+        flex: $contentLeft;
+        background-color: blue;
+        @include header-align();
+    }
+    
+   & .header-right{
+        flex: $contentRight;
+        background-color: green;
+        @include header-align();
+    }
+ }
+ 

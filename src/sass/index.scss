@@ -1,0 +1,48 @@
+@import  "variables.scss";
+
+@mixin content-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+@mixin list-clear {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-between;
+        background:red;
+        height: 80px;
+        min-height: 80px;
+}
+
+
+.content{
+    height: auto;
+
+    & .content-item{
+            display: flex;
+            height: inherit;
+
+            & .content-item__left{
+                flex:$contentLeft;
+                @include content-align();
+                background-color: red;
+            }
+
+            & .content-item__right{
+                flex:$contentRight;
+                @include content-align();
+                background-color: yellowgreen;
+        }
+    }
+}
+
+
+
+@media  (max-width:1024px) and (orientation:portrait){
+    .card{
+       font-size:40px;
+    }
+}
